@@ -45,6 +45,7 @@ namespace vk
 		table.add(0x1280, 0x128F, chip_class::NV_kepler);  // GK208
 		table.add(0x1290, 0x129A, chip_class::NV_mobile_kepler);  // Mobile GK208
 		table.add(0x129B, 0x12BA, chip_class::NV_kepler);  // GK208
+		table.add(0x102D, 0x102D, chip_class::NV_kepler);  // GK210
 		table.add(0x1381, 0x13B0, chip_class::NV_maxwell); // GM107
 		table.add(0x1340, 0x134D, chip_class::NV_maxwell); // GM108
 		table.add(0x13C0, 0x13D9, chip_class::NV_maxwell); // GM204
